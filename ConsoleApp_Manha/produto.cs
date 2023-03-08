@@ -19,5 +19,15 @@ namespace ConsoleApp_Manha
             Valor = valor;
 
         }
+
+        public string getDescricao()
+        {
+            return Descricao;
+        }
+
+        public decimal getValor()
+        {
+            return Valor;
+        }
     }
 }
