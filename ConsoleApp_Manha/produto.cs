@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -25,9 +26,29 @@ namespace ConsoleApp_Manha
             return Descricao;
         }
 
+        public void setDescricao(string Descricaco)
+        {
+            Descricao = Descricaco;
+        }
+
+        public void setValor(decimal valor)
+        {
+            Valor = valor;
+        }
+
         public decimal getValor()
         {
             return Valor;
         }
+
+        public void setId(int id)
+        {
+            if (id > 0)
+            {
+                Id = id;
+            }
+        }
     }
+
+   
 }
