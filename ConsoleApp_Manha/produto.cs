@@ -41,6 +41,11 @@ namespace ConsoleApp_Manha
             return Valor;
         }
 
+        public int getId()
+        {
+            return Id;
+        }
+
         public void setId(int id)
         {
             if (id > 0)
