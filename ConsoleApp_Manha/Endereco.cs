@@ -25,6 +25,11 @@ namespace ConsoleApp_Manha
             Estado = estado;
         }
         
+        public string getEndCompeto()
+        {
+            return Rua + " " + Numero + " " + CEP + " " + Bairro + " " + Cidade + " " + Estado;
+        }
+
         public string getRua()
         {
             return Rua;
