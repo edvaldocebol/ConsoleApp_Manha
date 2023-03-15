@@ -6,16 +6,18 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp_Manha
 {
-    public class Pessoa
+    public class Cliente
     {
 
         private string Telefone;
         private int Id;
+        private string Name;
 
-        public Pessoa(string telefone, int id)
+        public Cliente(string telefone, int id, string name)
         {
             Id = id;
             Telefone = telefone;
+            Name = telefone;
         }
 
         public string getTelefone()
@@ -28,6 +30,11 @@ namespace ConsoleApp_Manha
             return Id;
         }
 
+        public string getName()
+        {
+            return Name;
+        }
+
         public void setTelefone(string telefone)
         {
             Telefone = telefone;
@@ -36,6 +43,11 @@ namespace ConsoleApp_Manha
         public void steId(int id)
         {
             Id = id;
+        }
+
+        public void setName(string name)
+        {
+            Name = name;
         }
     }
 }
