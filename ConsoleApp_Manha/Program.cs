@@ -33,3 +33,7 @@ aviao.Cor = "rosa";
 aviao.PagamentoImposto = false;
 aviao.quantidadeAsenros = 500;
 
+
+Bike bike = new Bike();
+bike.PagamentoImposto = false;
+
