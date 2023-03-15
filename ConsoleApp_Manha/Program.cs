@@ -19,3 +19,17 @@ Cliente c4 = new Cliente(4, "1632536489", "focus", e1);
 
 Console.WriteLine(c1.getEndereco().EndCompeto());
 
+Carro carro = new Carro();
+carro.MArca = "scort";
+carro.numeroPortas = 2;
+carro.numeroRodas = 4;
+carro.Cor = "vermelho";
+
+Aviao aviao = new Aviao();
+aviao.portasinternas = 5;
+aviao.numeroRodas = 2;
+aviao.numeroPortas = 1;
+aviao.Cor = "rosa";
+aviao.PagamentoImposto = false;
+aviao.quantidadeAsenros = 500;
+

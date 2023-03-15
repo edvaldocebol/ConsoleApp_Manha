@@ -14,6 +14,7 @@ namespace ConsoleApp_Manha
         private string Bairro;
         private string Cidade;
         private string Estado;
+       
 
         public Endereco(string rua, string numero, string cep, string bairro, string cidade, string estado, string v)
         {
@@ -23,8 +24,11 @@ namespace ConsoleApp_Manha
             Bairro = bairro;
             Cidade = cidade;
             Estado = estado;
+
+           
         }
         
+
         public string EndCompeto()
         {
             return Rua + " " + Numero + " " + CEP + " " + Bairro + " " + Cidade + " " + Estado;
