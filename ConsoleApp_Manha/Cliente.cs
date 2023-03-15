@@ -9,15 +9,17 @@ namespace ConsoleApp_Manha
     public class Cliente
     {
 
-        private string Telefone;
+        private Endereco Endereco;
         private int Id;
+        private string Telefone;
         private string Name;
 
-        public Cliente(string telefone, int id, string name)
+        public Cliente(int id, string telefone, string name, Endereco endereco)
         {
             Id = id;
             Telefone = telefone;
             Name = telefone;
+            Endereco = endereco;
         }
 
         public string getTelefone()
@@ -48,6 +50,16 @@ namespace ConsoleApp_Manha
         public void setName(string name)
         {
             Name = name;
+        }
+
+        public Endereco getEndereco()
+        {
+            return Endereco;
+        }
+
+        public void setEndereco(Endereco endereco)
+        {
+            Endereco = endereco;
         }
     }
 }
