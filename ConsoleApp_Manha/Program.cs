@@ -49,8 +49,8 @@ lista.Add(c2);
 lista.Add(c3);
 lista.Add(c4);
 
-foreach (Cliente item in lista)
+foreach (Veiculos veiculos in ListaVeiculos)
 {
-    Console.WriteLine(item.getName());
+    Console.WriteLine(carro);
 }
 
