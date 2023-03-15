@@ -17,5 +17,5 @@ Cliente c2 = new Cliente(2, "16996309026", "carlos", e1);
 Cliente c3 = new Cliente(3, "16996405518", "antonio", e1);
 Cliente c4 = new Cliente(4, "1632536489", "focus", e1);
 
-Console.WriteLine(c1.getEndereco().getEndCompeto());
+Console.WriteLine(c1.getEndereco().EndCompeto());
 
