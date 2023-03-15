@@ -37,3 +37,20 @@ aviao.quantidadeAsenros = 500;
 Bike bike = new Bike();
 bike.PagamentoImposto = false;
 
+
+List<Veiculos> ListaVeiculos = new List<Veiculos>();
+ListaVeiculos.Add(aviao);
+ListaVeiculos.Add(carro);
+ListaVeiculos.Add(bike);
+
+List<Cliente> lista = new List<Cliente>();
+lista.Add(c1);
+lista.Add(c2);
+lista.Add(c3);
+lista.Add(c4);
+
+foreach (Cliente item in lista)
+{
+    Console.WriteLine(item.getName());
+}
+

@@ -14,4 +14,6 @@ namespace ConsoleApp_Manha
         public bool PagamentoImposto;
         public int quantidadeAsenros;
     }
+
+
 }
